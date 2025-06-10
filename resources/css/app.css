@@ -1,0 +1,8 @@
+div.dataTables_filter {
+    margin-left: 10px !important;
+}
+
+/* Padding for DataTables length select box */
+div.dataTables_length {
+    margin-right: 10px !important;
+}

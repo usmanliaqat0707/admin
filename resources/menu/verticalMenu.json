@@ -1,0 +1,23 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ri-home-smile-line",
+      "slug": "dashboard"
+    },
+    {
+      "url": "/",
+      "icon": "menu-icon tf-icons ri-graduation-cap-line",
+      "name": "Mentorship",
+      "slug": "mentorship",
+      "submenu": [
+        {
+          "url": "/mentorship/applications",
+          "name": "Applications",
+          "slug": "mentorship-applications"
+        }
+      ]
+    }
+  ]
+}
