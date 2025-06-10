@@ -9,4 +9,12 @@ class MentorshipApplication extends Model
 {
     /** @use HasFactory<\Database\Factories\MentorshipApplicationFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'id',
+        'email',
+        'is_eligible',
+        'username',
+        'password',
+    ];
 }

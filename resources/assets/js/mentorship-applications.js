@@ -54,7 +54,6 @@ $(function() {
                 orderable: false,
                 searchable: false,
                 responsivePriority: 0,
-                className: 'no-select',
                 render: function(data, type, full, meta) {
                   return (
                     '<div class="d-flex">' +
@@ -140,7 +139,8 @@ $(function() {
               }
             ],
             select: {
-                style: 'multi'
+              style: 'multi',
+              selector: 'td:not(:last-child)'
             }
           });
           $("#" + id +"_wrapper").find('.head-label').html('<h4 class="card-title mb-0">'+ status +' Submissions</h4>');

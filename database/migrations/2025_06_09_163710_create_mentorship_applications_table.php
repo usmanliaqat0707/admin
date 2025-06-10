@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('designation')->nullable();
             $table->string('organization')->nullable();
             $table->string('programme_choice')->nullable();
+            $table->string('programme_id')->default('10');
             $table->string('linkedin')->nullable();
             $table->boolean('pledge_agree')->default(false);
             $table->timestamp('submitted_at')->nullable();

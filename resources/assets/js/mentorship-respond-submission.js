@@ -16,7 +16,7 @@ $(function () {
         })
             .then(res => res.json())
             .then(data => {
-                console.log(data.message)
+                console.log(data)
                 $(button).attr('disabled', false);
                 $(button).text('Approve Submission');
             })
